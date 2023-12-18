@@ -9,5 +9,5 @@ services:
     ports:
       - "22:2222"      
     volumes:
-      - ./cowrie-etc:/cowrie/cowrie-git/etc
-      - ./cowrie-var:/cowrie/cowrie-git/var
+      - ./cowrie-etc:/home/cowrie/cowrie/etc
+      - ./cowrie-var:/home/cowrie/cowrie/var
